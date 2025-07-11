@@ -1,8 +1,8 @@
 import { ArrowLeft, Radio } from 'lucide-react'
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { QuestionForm } from '../components/question-form'
-import { QuestionItem } from '../components/question-item'
-import { Button } from '../components/ui/button'
+import { Button } from '@/components/ui/button'
+import { QuestionForm } from './question-form'
+import { QuestionItem } from './question-item'
 
 type RoomParams = {
   roomId: string
